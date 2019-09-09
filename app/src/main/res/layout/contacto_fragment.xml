@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/maps" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Contacto"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808181"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="En Laboratorio Oncológico Taxa (LOT) queremos resolver todas sus dudas y consultas sobre el trabajo de nuestros oncólogos y laboratoristas. Escríbanos, le responderemos con la mayor brevedad posible."
+                android:layout_marginBottom="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Teléfonos:"
+                android:textSize="15dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808181"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Teléfono fijo: (01) 655-5049
+                      \nRPC: 991398561
+                      \nMovistar: 999-333995"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_vertical|right"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Dirección:"
+                android:textSize="15dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808181"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Calle Montegrande 109 Oficina 506 Urb. Chacarilla del Estanque Santiago de Surco, Lima"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_vertical|right"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Horario de atención:"
+                android:textSize="15dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#808181"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Lunes a viernes de 08:00 a.m. a 07:00 p.m.; y Sábados de 08:00 a.m. a 01:00 p.m."
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_vertical|right"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

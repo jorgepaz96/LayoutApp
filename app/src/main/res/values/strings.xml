@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">APPLOT</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Nosotros</string>
+    <string name="title_notifications">Analisis Médico</string>
+    <string name="title_contacto">Contacto</string>
+    <string name="nosotros_aval_profesional">
+        Contamos con el aval profesional de nuestro gerente general, el doctor Luis Taxa Rojas, médico patólogo oncólogo especialista en el diagnóstico del cáncer.
+        \n\nCuenta con experiencia laboral y formación en prestigiosas instituciones nacionales como el Hospital Cayetano Heredia y el Instituto Especializado de Enfermedades Neoplásicas (INEN), así como en instituciones extranjeras entre las que figuran el Centro de Tratamento e Pesquisa Hospital Do Cancer A. C. Camargo de Brasil, el Tokyo Medical and Dental University, School of Medicine, Pathology Department y el International Hospital of Tokyo de Japón.
+        \n\nActualmente, se desempeña como médico asistente del INEN y jefe del curso de Histología de la Universidad San Martín de Porres. Además, forma parte del staff de médicos de la Clínica Ricardo Palma.
+    </string>
+    <string name="analisis_metodologia">
+        Los especialistas derivan las muestras directamente a nuestro laboratorio o a través de los propios pacientes.
+        \n\n
+        Las muestras se analizan al microscopio, se solicitan segundas opiniones y se revisan láminas para corroborar el diagnóstico.
+        \n\n
+        A continuación, se emite un diagnóstico definitivo que permite que el médico tratante pueda elaborar un tratamiento, dar un pronóstico en algunos casos y predecir la respuesta a dicho tratamiento; por ejemplo, si el paciente responderá o no a una droga determinada.
+        \n\n
+        Si busca un laboratorio reconocido por la confiabilidad de sus análisis médicos, no dude en consultarnos.
+    </string>
+</resources>
